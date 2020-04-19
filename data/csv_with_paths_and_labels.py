@@ -7,7 +7,7 @@ import pandas as pd
 df = pd.DataFrame(columns=['path', 'label', 'dataset'])
 rows_list = []
 def formDict(pathToFile):
-    path = pathToFile
+    path = './data/' + pathToFile.strip('./')
     label = pathToFile.rsplit('/')[-2]
     dataset = pathToFile.split('/')[1]
     rows_list.append({ 'path': path, 'label': label, 'dataset': dataset} )
