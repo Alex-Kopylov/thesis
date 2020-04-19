@@ -1,0 +1,6 @@
+,dataset_name,format,numbers,special_classes,additional_info
+0,sign-language-mnist,csv,0,,no cases for 9=J or 25=Z because of gesture motions
+1,asl-alphabet,jpg,0,"SPACE, DELETE, NOTHING",
+2,significant-asl-sign-language-alphabet-dataset,jpg,0,space,
+3,sign-language-kernel-data,pkl,,,
+4,sign-language-gesture-images-dataset,jpg,1,_,folder with pre-processed data via  threshold binary
